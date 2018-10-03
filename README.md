@@ -24,4 +24,4 @@ This prototype demonstrates the following:
 6) Now for node 1, now click on "http://localhost:8002/ "  and then back on "http://localhost:8001/ (local)".  
 You will notice that for genes B and C they are now showing the word Howdy.  This is becuase these genes are configured to automatically adopt what the majority of the other cells in the population uses.  Gene A is still set to Hi becuase it is locked and is not allow to change.  
 
-- End -
+END OF DEMO
