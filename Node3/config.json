@@ -1,0 +1,44 @@
+﻿{
+  "Url": "http://localhost:8003",
+  "NetworkNodes": [
+
+    "http://localhost:8001",
+    "http://localhost:8002"
+  ],
+  "Assemblies": [
+    {
+      "Name": "GeneA_Howdy",
+      "FileName": "E01D.Genetics.Tests.GeneA_Howdy.dll"
+    },
+    {
+      "Name": "GeneB_Howdy",
+      "FileName": "E01D.Genetics.Tests.GeneB_Howdy.dll"
+    },
+    {
+      "Name": "GeneC_Howdy",
+      "FileName": "E01D.Genetics.Tests.GeneC_Howdy.dll"
+    }
+  ],
+  "Genes": [
+    {
+      "Assembly": "E01D.Genetics.Tests.GeneA_Howdy.dll",
+      "Class": "Root.Code.E01D.Genetics.Tests.GeneA",
+      "IsLocked": false,
+      "Name": "GeneA - Howdy" 
+
+    },
+    {
+      "Assembly": "E01D.Genetics.Tests.GeneB_Howdy.dll",
+      "Class": "Root.Code.E01D.Genetics.Tests.GeneB",
+      "IsLocked": false,
+      "Name": "GeneB - Howdy"
+    },
+    {
+      "Assembly": "E01D.Genetics.Tests.GeneC_Howdy.dll",
+      "Class": "Root.Code.E01D.Genetics.Tests.GeneC",
+      "IsLocked": false,
+      "Name": "GeneC - Howdy"
+    }
+  ]
+
+}

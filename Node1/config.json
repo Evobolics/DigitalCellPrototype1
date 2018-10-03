@@ -1,0 +1,45 @@
+﻿{
+  "Url": "http://localhost:8001",
+  "NetworkNodes": [
+
+    "http://localhost:8002",
+    "http://localhost:8003"
+
+  ],
+  "Assemblies": [
+    {
+      "Name": "GeneA_Hi",
+      "FileName": "E01D.Genetics.Tests.GeneA_Hi.dll"
+    },
+    {
+      "Name": "GeneB_Hi",
+      "FileName": "E01D.Genetics.Tests.GeneB_Hi.dll"
+    },
+    {
+      "Name": "GeneC_Hi",
+      "FileName": "E01D.Genetics.Tests.GeneC_Hi.dll"
+    }
+  ],
+  "Genes": [
+    {
+      "Assembly": "E01D.Genetics.Tests.GeneA_Hi.dll",
+      "Class": "Root.Code.E01D.Genetics.Tests.GeneA",
+      "IsLocked": true,
+      "Name": "GeneA - Hi" 
+
+    },
+    {
+      "Assembly": "E01D.Genetics.Tests.GeneB_Hi.dll",
+      "Class": "Root.Code.E01D.Genetics.Tests.GeneB",
+      "IsLocked": false,
+      "Name": "GeneB - Hi"
+    },
+    {
+      "Assembly": "E01D.Genetics.Tests.GeneC_Hi.dll",
+      "Class": "Root.Code.E01D.Genetics.Tests.GeneC",
+      "IsLocked": false,
+      "Name": "GeneC - Hi"
+    }
+  ]
+
+}
