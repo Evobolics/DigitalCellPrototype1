@@ -2,10 +2,10 @@
 
 This prototype demonstrates the following:
 
-0) That applications can communicate each other and read each other genetics.   
-1) That assemblies, and the functionality they contain, can be transferred between a population of nodes.
-2) That a node can recieve an assembly, convert it to a collectible assembly, and load it into memory.
-3) That a node can change what functionality it has loaded based what other nodes have choosen.  
+1) That applications can communicate each other and read each other genetics.   
+2) That assemblies, and the functionality they contain, can be transferred between a population of nodes.
+3) That a node can recieve an assembly, convert it to a collectible assembly, and load it into memory.
+4) That a node can change what functionality it has loaded based what other nodes have choosen.  
 
 # Instructions (Windows)
 
